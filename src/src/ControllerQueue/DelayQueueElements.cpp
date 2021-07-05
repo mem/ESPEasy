@@ -140,12 +140,12 @@ DEFINE_Cxxx_DELAY_QUEUE_MACRO_CPP(0, 17)
 DEFINE_Cxxx_DELAY_QUEUE_MACRO_CPP(0, 18)
 #endif // ifdef USES_C018
 
-
-/*
- #ifdef USES_C019
-   DEFINE_Cxxx_DELAY_QUEUE_MACRO_CPP(0, 19)
- #endif
- */
+/*********************************************************************************************\
+* C019_queue_element for queueing requests for 019: Prometheus Remote Write
+\*********************************************************************************************/
+#ifdef USES_C019
+DEFINE_Cxxx_DELAY_QUEUE_MACRO_CPP(0, 19)
+#endif // ifdef USES_C019
 
 /*
  #ifdef USES_C020

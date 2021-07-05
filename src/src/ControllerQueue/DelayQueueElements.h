@@ -152,6 +152,13 @@ DEFINE_Cxxx_DELAY_QUEUE_MACRO(0, 17)
 DEFINE_Cxxx_DELAY_QUEUE_MACRO(0, 18)
 #endif // ifdef USES_C018
 
+/*********************************************************************************************\
+* C019_queue_element for queueing requests for 019: Prometheus Remote Write
+\*********************************************************************************************/
+#ifdef USES_C019
+# include "../ControllerQueue/C019_queue_element.h"
+DEFINE_Cxxx_DELAY_QUEUE_MACRO(0, 19)
+#endif // ifdef USES_C019
 
 /*
  #ifdef USES_C019

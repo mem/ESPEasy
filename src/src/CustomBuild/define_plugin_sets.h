@@ -1005,6 +1005,7 @@ To create/register a plugin, you have to :
     #define USES_C009   // FHEM HTTP
     #define USES_C010   // Generic UDP
     #define USES_C013   // ESPEasy P2P network
+    #define USES_C019   // Prometheus Remote Write
 #endif
 
 
